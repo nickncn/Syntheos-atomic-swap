@@ -1,0 +1,6 @@
+[programs.mainnet]
+solana_htlc = "FhtnFvQBCFZ6HD6Hb9Sz4wbSHqKGBHiY7nJYv3bQEmZ2"
+
+[provider]
+cluster = "mainnet"
+wallet = "/Users/n/my-solana-wallet.json"
