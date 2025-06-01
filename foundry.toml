@@ -1,0 +1,17 @@
+[profile.default]
+src = "contracts"
+out = "out"
+libs = ["lib"]
+
+[default]
+src = "contracts"
+out = "out"
+libs = ["lib"]
+
+remappings = [
+    "@layerzerolabs/lz-evm-protocol-v2/=lib/layerzero-v2/packages/layerzero-v2/evm/protocol/contracts/",
+    "@layerzerolabs/lz-evm-messagelib-v2/=lib/layerzero-v2/packages/lz-messagelib/evm/contracts/",
+    "@layerzerolabs/=lib/layerzero-v2/packages/",
+    "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+    "forge-std/=lib/forge-std/src/",
+]

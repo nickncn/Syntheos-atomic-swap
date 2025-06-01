@@ -1,0 +1,68 @@
+# Node modules
+node_modules/
+frontend/node_modules/
+
+# Env and secrets
+.env
+frontend/.env
+
+# Hardhat artifacts
+artifacts/
+cache/
+
+# Typechain
+typechain/
+typechain-types/
+
+# Coverage
+coverage/
+coverage.json
+
+# Hardhat Ignition local deployment
+ignition/deployments/chain-31337/
+
+# Logs
+*.log
+
+
+# Environment variables and secrets
+.env
+*.env
+.env.*
+
+# Private keys and sensitive configs
+*.key
+*.pem
+*.p12
+*.jks
+*.json
+
+# Node modules and build artifacts
+node_modules/
+dist/
+build/
+out/
+.cache/
+coverage/
+
+# System files
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+
+# Logs and dumps
+*.log
+*.pid
+*.sqlite
+*.db
+*.bak
+*.tmp
+
+# Test-only data
+*.local
+
+# Dependencies locks (optional)
+yarn.lock
+pnpm-lock.yaml
